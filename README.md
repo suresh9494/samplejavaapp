@@ -2,5 +2,5 @@
 Sample Java Applicaiton V1.1
 
 
-test_pipeline2
+test_pipeine CI pipeline test
 
