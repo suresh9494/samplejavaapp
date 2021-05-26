@@ -16,6 +16,6 @@
     - name: deploy app
       command: kubectl create deploy myapp --image=snalli9494/samplejavaapp:"{{ build }}"
     - name: increase replicas 
-      command: kubectl scale deploy myapp --replicas=2
+      command: kubectl scale deploy myapp --replicas=4
     - name: deploy service
       command: kubectl expose deploy myapp --name myapp-svc --port 8080 --type NodePort
